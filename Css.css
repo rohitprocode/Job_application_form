@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'PT Serif', serif;
 }
 .container{
-    background-color:darkgray;
+    /* background-color:darkgray; */
+    background-color: black;
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
 }
 .formbox{
     margin: auto;
-    background-color: white;
+    /* background-color: white; */
+    background-color: rgb(15,50,50) ;
     height: 90vh;
     width: 40vw;
 }
@@ -30,5 +36,9 @@
     /* background-color: red; */
 }
 .heading h1 span{
-    font-size: small;
+    font-size: 20px;
+}
+.input_field{
+    background-color: gray;
+    min-height: fit-content;
 }
