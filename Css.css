@@ -7,18 +7,21 @@
     font-family: 'PT Serif', serif;
 }
 .container{
-    /* background-color:darkgray; */
-    background-color: black;
+    background-color:darkgray;
+    /* background-color: black; */
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
 }
 .formbox{
     margin: auto;
-    /* background-color: white; */
-    background-color: rgb(15,50,50) ;
+    background-color: white;
+    /* background-color: rgb(15,50,50) ; */
     height: 90vh;
-    width: 40vw;
+    width: 35vw;
+    border: none;
+    border-radius: 3%;
+    box-shadow: 15px;
 }
 .heading{
     /* background-color: rebeccapurple; */
@@ -33,13 +36,14 @@
     text-align: center;
     width: 420px;
     max-height: 90px;
+    margin-left: 10px;
     /* background-color: red; */
 }
 .heading h1 span{
     font-size: 20px;
 }
 .input_field{
-    background-color: gray;
+    /* background-color: gray; */
     min-height: fit-content;
 }
 .f_name_l_name{
@@ -48,7 +52,19 @@
     min-height: fit-content;
 }
 .input_fname,.input_lname{
-    background-color: purple;
+    /* background-color: purple; */
     height: 60px;
-    width: 265px;
+    width: 250px;
+}
+.f_name_l_name h6{
+    /* background-color: aliceblue; */
+    font-size: 12px;
+}
+.f_name_l_name input{
+    margin-top: 2px;
+    min-height:35px;
+    width: 245px;
+    border: 1px solid grey;
+    border-radius: 3px;
+
 }
