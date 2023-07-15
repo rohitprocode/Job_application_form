@@ -2,3 +2,8 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    background-color:darkgray;
+    min-height: 100vh;
+    min-width: 100vw;
+}
