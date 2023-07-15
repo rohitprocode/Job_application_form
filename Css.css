@@ -6,4 +6,11 @@
     background-color:darkgray;
     min-height: 100vh;
     min-width: 100vw;
+    display: flex;
+}
+.formbox{
+    margin: auto;
+    background-color: white;
+    height: 90vh;
+    width: 40vw;
 }
