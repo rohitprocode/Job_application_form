@@ -14,3 +14,11 @@
     height: 90vh;
     width: 40vw;
 }
+.heading{
+    background-color: rebeccapurple;
+    min-height: 100px;
+    display: flex;
+}
+.heading h1{
+    background-color: yellow;
+}
