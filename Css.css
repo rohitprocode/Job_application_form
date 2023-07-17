@@ -56,4 +56,22 @@ button{
     padding: 5px 10px;
     border: transparent solid 2px;
     border-radius: 8px;
+    transition: 0.3s ease-in;
+}
+button:hover{
+    background-color: blue;
+    border: 2px solid black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+.textarea_control{
+    grid-column: 1 / span 2;
+}
+.textarea_control textarea{
+    width: 100%;
+}
+@media (max-width:460px){
+    .textarea_control{
+        grid-column: 1 / span 1;
+    }
 }
