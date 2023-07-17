@@ -3,7 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #ccc;
+}
 .container{
     max-width: 900px;
     margin: 0 auto;
+}
+.apply_box{
+    background-color: white;
+    max-width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.1);
+    border-radius: 5px;
+}
+.small_title{
+    font-size: 20px;
 }
